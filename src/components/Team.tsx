@@ -3,21 +3,11 @@ import { Linkedin, Github, Mail } from 'lucide-react';
 
 const Team = () => {
   const founders = [
-    {
-      name: "Aryan Saxena",
-      role: "Co-Founder & CEO",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
-      bio: "Visionary leader with a passion for AI and fashion technology.",
-      social: {
-        linkedin: "#",
-        github: "#",
-        email: "aryan@rookus.com"
-      }
-    },
+
     {
       name: "Aditya Gaur",
-      role: "Co-Founder & CTO",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
+      role: "Co-Founder & COO",
+      image: "",
       bio: "Technical architect driving AI innovation in fashion design.",
       social: {
         linkedin: "#",
@@ -26,9 +16,21 @@ const Team = () => {
       }
     },
     {
+      name: "Aryan Saxena",
+      role: "Co-Founder & CTO",
+      image: "",
+      bio: "Visionary leader with a passion for AI and fashion technology.",
+      social: {
+        linkedin: "#",
+        github: "#",
+        email: "aryan@rookus.com"
+      }
+    },
+    
+    {
       name: "Nikhil Verma",
-      role: "Co-Founder & CPO",
-      image: "https://images.pexels.com/photos/2182973/pexels-photo-2182973.jpeg?auto=compress&cs=tinysrgb&w=400",
+      role: "Co-Founder & CEO",
+      image: "",
       bio: "Product strategist focused on user experience and design innovation.",
       social: {
         linkedin: "#",
